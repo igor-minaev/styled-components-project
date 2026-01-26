@@ -6,6 +6,8 @@ function App() {
     return (
         <div>
             <Box>
+                <StyledBtn as={Link} href={"#"}>LinkComponent</StyledBtn>
+                <StyledBtn as={"a"} href={"#"}>Link</StyledBtn>
                 <StyledBtn>Button</StyledBtn>
                 <SuperButton>Button2</SuperButton>
             </Box>
@@ -21,6 +23,13 @@ const StyledBtn = styled.button`
     background-color: #ef319b;
     padding: 10px 20px;
     color: snow;
+    font-size: 2rem;
+    font-weight: bold;
+
+`
+
+const Link = styled.a`
+    color: #328eca;
     font-size: 2rem;
     font-weight: bold;
 
