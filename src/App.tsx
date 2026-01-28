@@ -20,8 +20,9 @@ function App() {
                 {/*<StyledBtn as={Link} href={"#"}>LinkComponent</StyledBtn>*/}
                 {/*<StyledBtn as={"a"} href={"#"}>Link</StyledBtn>*/}
                 {/*<SuperButton>Button2</SuperButton>*/}
-                <StyledBtn>Button</StyledBtn>
+                <StyledBtn color="red" fontSize="20px">Button</StyledBtn>
                 <StyledBtn color="green">Button</StyledBtn>
+                <StyledBtn>Button</StyledBtn>
             </Box>
         </div>
     )
