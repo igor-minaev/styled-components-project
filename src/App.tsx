@@ -20,9 +20,10 @@ function App() {
                 {/*<StyledBtn as={Link} href={"#"}>LinkComponent</StyledBtn>*/}
                 {/*<StyledBtn as={"a"} href={"#"}>Link</StyledBtn>*/}
                 {/*<SuperButton>Button2</SuperButton>*/}
-                <StyledBtn color="red" fontSize="20px">Button</StyledBtn>
-                <StyledBtn color="green">Button</StyledBtn>
-                <StyledBtn>Button</StyledBtn>
+               {/* <StyledBtn color="red" fontSize="20px">Button</StyledBtn>*/}
+                {/*<StyledBtn color="green" fontSize="30px">Button</StyledBtn>*/}
+                <StyledBtn primary>Button</StyledBtn>
+                <StyledBtn outlined>Button</StyledBtn>
             </Box>
         </div>
     )
