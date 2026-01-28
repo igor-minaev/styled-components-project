@@ -3,7 +3,8 @@ import {MyAnimation} from "../styles/animations/Animations.ts";
 
 export const StyledBtn = styled.button`
     border: none;
-    background-color: #ef319b;
+    //background-color: #ef319b;
+    background-color: ${props => props.color || "#ef319b"};
     padding: 10px 20px;
     color: snow;
     font-size: 2rem;
@@ -13,15 +14,16 @@ export const StyledBtn = styled.button`
         background-color: #700241;
     }
 
-    &:last-child {
+    /*&:last-child {
         background-color: #d240ec;
-    }
+    }*/
 `
 
-export const SuperButton=styled(StyledBtn)`
+export const SuperButton = styled(StyledBtn)`
     border-radius: 5px;
     background-color: #f4f002;
     color: #434040;
+
     &:hover {
         animation: ${MyAnimation} 2s ease-in-out;
     }
