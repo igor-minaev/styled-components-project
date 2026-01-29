@@ -13,6 +13,7 @@ type StyledBtnPropsType = {
 
 export const StyledBtn = styled.button<StyledBtnPropsType>`
     border: none;
+    border-radius: 10px;
     //background-color: #ef319b;
         //background-color: ${props => props.color || "#ef319b"};
     padding: 10px 20px;

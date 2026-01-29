@@ -2,6 +2,7 @@ import './App.css'
 import styled from "styled-components";
 import {StyledBtn, /*SuperButton*/} from "./components/Button.styled.tsx";
 import {Link} from "./components/Link.styled.tsx";
+import {myTheme} from "./styles/Theme.styled.tsx";
 
 // import {Menu} from "./components/Menu.styled.tsx";
 
@@ -24,8 +25,8 @@ function App() {
                 {/*<StyledBtn color="green" fontSize="30px">Button</StyledBtn>*/}
                 {/*<StyledBtn primary>Button</StyledBtn>*/}
                 {/*<StyledBtn outlined>Button</StyledBtn>*/}
-                <StyledBtn btnType="primary" active>Button</StyledBtn>
-                <StyledBtn btnType="outlined">Button</StyledBtn>
+                <StyledBtn color={myTheme.colors.primiry} btnType="primary" active>Button</StyledBtn>
+                <StyledBtn color={myTheme.colors.secondary} btnType="outlined">Button</StyledBtn>
             </Box>
         </div>
     )
