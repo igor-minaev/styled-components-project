@@ -50,7 +50,7 @@ const Box = styled.div`
         cursor: zoom-in;
     }
 
-    @media screen and (max-width: 800px) {
+    @media ${myTheme.media.tablet} {
         flex-direction: column;
     }
 `
